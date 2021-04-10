@@ -14,4 +14,10 @@ body {
     padding: 0;
 }
 
-
+/* navbar */
+.container {
+    display: grid;
+    grid-template-columns: minmax(6rem, 1fr) repeat(8, minmax(min-content, 16rem)) minmax(6rem, 1fr);
+    grid-template-rows: repeat(3, min-content);
+    grid-row-gap: 1.6rem;
+}
