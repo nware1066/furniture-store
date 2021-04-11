@@ -20,6 +20,7 @@ body {
     grid-template-columns: minmax(16rem, 1fr) repeat(8, minmax(min-content, 16rem)) minmax(6rem, 1fr);
     grid-template-rows: repeat(3, min-content);
     grid-row-gap: 1.6rem;
+    margin-top: 1.6rem;
 }
 
 .social-icons {
@@ -45,4 +46,43 @@ body {
 .first-nav {
     grid-column: 6 / 10;
     grid-row: 1 / 2;
+}
+
+.first-nav-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    list-style: none;
+}
+
+.first-nav-link {
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: #12376e;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.first-nav-link::after {
+    content: "";
+    width: 0;
+    height: .1rem;
+    margin: auto;
+    background-color: #12376e;
+    display: block;
+    transition: width .2s cubic-bezier(.55, 0, .98, .54)
+}
+
+.first-nav-link:hover::after {
+    width: 100%;
+}
+
+.first-nav-link span {
+    font-size: 1.3rem;
+    color: #34598f;
+}
+
+.first-nav-link i {
+    font-size: 1.3rem;
+    margin-right: .3rem;
 }
