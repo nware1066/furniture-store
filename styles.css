@@ -31,6 +31,17 @@ body {
     align-items: center;
 } 
 
+.social-icon {
+    font-size: 1.8rem;
+    color: #12376e;
+    transition: all .2s;
+}
+
+.social-icon:hover {
+    color: #34598f;
+    transform: rotateZ(360deg);
+}
+
 .first-nav {
     grid-column: 6 / 10;
     grid-row: 1 / 2;
