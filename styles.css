@@ -516,12 +516,20 @@ body {
     grid-template-rows: repeat(4, 10vw);
     grid-gap: 1.6rem;
     margin-top: 6.4rem;
+    background-color: #23487f;
+    padding: 1.6rem 0;
 }
 
 .gallery-img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    opacity: .5;
+    transition: opacity .5s;
+}
+
+.gallery-img:hover {
+    opacity: 1;
 }
 
 .gallery-img-1 {
