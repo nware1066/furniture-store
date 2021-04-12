@@ -433,9 +433,13 @@ body {
     box-shadow: .2rem .2rem 1rem #777;
 }
 
+.day-offer-btn:hover {
+    box-shadow: .2rem .2rem 2rem #777;
+}
+
 .day-offer-img-two {
     grid-column: 3 / -1;
     grid-row: 4 / -1;
     width: 100%;
+    align-self: end;
 }
-
