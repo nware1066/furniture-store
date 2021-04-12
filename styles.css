@@ -465,6 +465,7 @@ body {
 
 .bestselling-furniture-card {
     background-color: #fefefe;
+    box-shadow: 0 1.5rem 6rem rgba(0, 0, 0, .3);
 }
 
 .bestselling-furniture-img {
@@ -491,3 +492,17 @@ body {
     margin-bottom: 1.6rem;
 }
 
+.bestselling-furniture-button {
+    width: 100%;
+    padding: 1.6rem;
+    background-color: #12376e;
+    font-size: 1.9rem;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 0 0 .3rem .3rem;
+}
+
+.bestselling-furniture-button:hover {
+    background-color: #23487f;
+}
