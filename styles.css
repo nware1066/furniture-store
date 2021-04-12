@@ -331,7 +331,7 @@ body {
     width: 1.3rem;
     height: 1.3rem;
     background-color: #bbb;
-    border: .2rem solid #d38000;
+    border: .2rem solid #d38800;
     border-radius: 50%;
     cursor: pointer;
     outline: none;
@@ -339,6 +339,10 @@ body {
     top: 95%;
     transform: translateX(-50%);
     z-index: 10;
+}
+
+.slide-btn:hover {
+    background-color: #12376e;
 }
 
 .slide-btn-1 {
@@ -355,4 +359,27 @@ body {
 
 .slide-btn-4 {
     left: 53%;
+}
+
+/* attempted to use :focus pseudoclass, but for some reason, it would not work */
+
+
+.slide-btn-1:hover ~ .slideshow-wrapper {
+    animation: none;
+    left: 0;
+}
+
+.slide-btn-2:hover ~ .slideshow-wrapper {
+    animation: none;
+    left: -100%;
+}
+
+.slide-btn-3:hover ~ .slideshow-wrapper {
+    animation: none;
+    left: -200%;
+}
+
+.slide-btn-4:hover ~ .slideshow-wrapper {
+    animation: none;
+    left: -300%;
 }
