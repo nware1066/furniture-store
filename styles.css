@@ -462,3 +462,32 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     grid-gap: 6.4rem;
 }
+
+.bestselling-furniture-card {
+    background-color: #fefefe;
+}
+
+.bestselling-furniture-img {
+    width: 100%;
+    border-radius: .3rem .3rem 0 0;
+}
+
+.bestselling-furniture-heading {
+    background-color: #fffddd;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-size: 2.4rem;
+    color: #458a9f;
+    padding: .5rem;
+    border-radius: .2rem;
+    transform: translateY(-50%);
+}
+
+.bestselling-furniture-paragraph {
+    font-size: 1.9rem;
+    color: #23487f;
+    text-align: center;
+    margin-bottom: 1.6rem;
+}
+
