@@ -677,3 +677,10 @@ body {
     border: .1rem solid #eee;
     cursor: pointer;
 }
+
+.form-heading {
+    font-size: 2rem;
+    color: #12376e;
+    text-transform: uppercase;
+    padding: 1rem 0 0 .2rem;
+}
