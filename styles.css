@@ -684,3 +684,30 @@ body {
     text-transform: uppercase;
     padding: 1rem 0 0 .2rem;
 }
+
+.forms-wrapper {
+    width: 50rem;
+    padding: 1rem;
+}
+
+.forms-wrapper form input:not(.form-btn) {
+    background-color: #fff;
+    color: #777;
+    padding: 1.3rem;
+    margin: .3rem;
+    border: .2rem solid #eee;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.fullname-inputs-wrapper {
+    display: flex;
+}
+
+.fullname-inputs-wrapper input {
+    width: 50%;
+}
+
+.form-input {
+    width: 100%
+}
