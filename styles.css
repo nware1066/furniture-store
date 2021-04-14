@@ -773,6 +773,10 @@ body {
     opacity: .6;
 }
 
+.first-nav-link label {
+    cursor: pointer;
+}
+
 @keyframes anim {
     0% {
         left: 40%;
