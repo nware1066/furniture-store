@@ -651,13 +651,14 @@ body {
 .forms-wrapper {
     background-color: #eee;
     position: fixed;
-    top: 50%;
+    top: 25%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%);
     z-index: 1000;
     padding: 2rem;
     border: .1rem solid #34598f;
     border-radius: .3rem;
+    display: none;
 }
 
 .show-btns-wrapper {
@@ -753,3 +754,21 @@ body {
     background-color: #12376e;
     pointer-events: initial;
 }
+
+#show-form:checked ~ .signup-form {
+    display: none;
+}
+
+#show-form:checked ~ .login-form {
+    display: block;
+}
+
+#show-hide-forms:checked ~ .forms-wrapper {
+    display: block;
+}
+
+#show-hide-forms:checked ~ .container {
+    pointer-events: none;
+    opacity: .6;
+}
+
