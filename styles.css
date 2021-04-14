@@ -636,3 +636,13 @@ body {
 .contact-button:hover {
     background-color: #12376e;
 }
+
+/* footer */
+.footer {
+    grid-column: 2 /10;
+    grid-row: 9 / 10;
+    text-align: center;
+    font-size: 1.6rem;
+    padding: 2rem 0 3rem 0;
+    color: #34598f;
+}
