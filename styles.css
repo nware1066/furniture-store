@@ -765,6 +765,7 @@ body {
 
 #show-hide-forms:checked ~ .forms-wrapper {
     display: block;
+    animation: anim .5s;
 }
 
 #show-hide-forms:checked ~ .container {
@@ -772,3 +773,17 @@ body {
     opacity: .6;
 }
 
+@keyframes anim {
+    0% {
+        left: 40%;
+    }
+    50% {
+        left: 60%;
+    }
+    75% {
+        left: 45%;
+    }
+    75% {
+        left: 50%;
+    }
+}
